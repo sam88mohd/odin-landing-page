@@ -1,5 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  padding: 16px 140px;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  gap: 40px;
+}
+
+.image-box {
+  background-color: lightslategray;
+  min-width: 600px;
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-signup-btn {
+  background-color: #3882f6;
+  padding: 6px 32px;
+  border: none;
+  border-radius: 10px;
+  color: #e5e7eb;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  margin-bottom: 100px;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-box {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  width: 160px;
+  height: 160px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 800;
+  margin: 32px;
+}
+
+.quote {
+  padding: 140px 300px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote span {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: end;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
 }
