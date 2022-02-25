@@ -69,14 +69,17 @@ h1 {
   color: #e5e7eb;
 }
 
+.btn {
+  padding: 6px 32px;
+  color: #e5e7eb;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
 .hero-signup-btn {
   background-color: #3882f6;
-  padding: 6px 32px;
   border: none;
-  border-radius: 10px;
-  color: #e5e7eb;
   margin-top: 10px;
-  font-size: 18px;
 }
 
 .card-container {
@@ -130,6 +133,26 @@ h2 {
   font-weight: 700;
   font-style: normal;
   text-align: end;
+}
+
+.cta {
+  padding: 100px;
+}
+
+.cta-btn {
+  border: 2px solid #f9faf8;
+  background-color: #3882f6;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 60px 50px;
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer {
